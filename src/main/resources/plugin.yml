@@ -1,0 +1,12 @@
+name: InsaneMonster
+version: ${project.version}
+main: insanemonster.insanemonster.InsaneMonster
+commands:
+  insanemod:
+    description: insane mod command
+    aliases:
+      - 인세인
+      - insame
+    permission: op.insanemod
+    permission-message: 권한이 부족합니다.
+    usage: /<command>
